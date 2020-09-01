@@ -8,7 +8,7 @@ Using a relatively old TV Box (MXQ Pro 4K) as a 3D Print server with OctoPrint a
 * SD Card
 * SD Card Reader
 
-# Instructions - Installing Linux on my TV Box
+# Installing Linux on TV Box
 * Open your TV Box and search for some board info (In my case, the board ID is 329Q)
 * Remove the CPU heatsink and write down the CPU model (In my case, it is a Rockchip RK3228a)
 * Search on how to setup a Linux on your board model or on your CPU model
@@ -19,7 +19,7 @@ Using a relatively old TV Box (MXQ Pro 4K) as a 3D Print server with OctoPrint a
 * After that, you will have a fully functional Linux running on your TV Box!
 * Remember to setup WiFi connection. I recommend the **nmtui** utility.
 
-# Instructions - Installing OctoPrint and Klipper
+# Installing OctoPrint and Klipper
 ## OctoPrint
 * Update and install some needed packages with these commands:
 ```
@@ -36,3 +36,5 @@ sudo apt install python-pip virtualenv build-essential g++ python-dev git
  
 ## Klipper
 * See [Klipper Installation](https://www.klipper3d.org/Installation.html)
+
+
