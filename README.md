@@ -37,4 +37,4 @@ sudo apt install python-pip virtualenv build-essential g++ python-dev git
 ## Klipper
 * See [Klipper Installation](https://www.klipper3d.org/Installation.html)
 
-
+![MXQ Pro 4K as a 3D Printer Server/Controller](/mxq_3d_printer.png)
