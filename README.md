@@ -20,3 +20,20 @@ Using a relatively old TV Box (MXQ Pro 4K) as a 3D Print server with OctoPrint a
 * Remember to setup WiFi connection. I recommend the **nmtui** utility.
 
 # Instructions - Installing OctoPrint and Klipper
+## OctoPrint
+* Update and install some needed packages with these commands:
+```
+sudo apt update
+sudo apt install python-pip virtualenv build-essential g++ python-dev
+```
+* Install OctoPrint and enable auto running
+ * See [Installing manually] (https://octoprint.org/download/) and [Automatic start up](https://community.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337)
+* Setup Shutdown and Reboot
+ * Restart OctoPrint: sudo service octoprint restart
+ * Restart system: sudo systemctl reboot
+ * Shutdown system: sudo systemctl poweroff
+ 
+## Klipper
+
+
+ 
