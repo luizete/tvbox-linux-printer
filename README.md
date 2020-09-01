@@ -1,3 +1,5 @@
+** I do not take any responsibility for any damage caused through use of this/these tutorial/softwares. **
+
 # tvbox-linux-printer
 Using a relatively old TV Box (MXQ Pro 4K) as a 3D Print server with OctoPrint and Klipper
 
